@@ -1,9 +1,7 @@
 function removeBackgroundImage() {
-  if (/hot-pocket/.test(document.location.href)) {
-    const root = document.querySelector('#trello-root');
-    root.style = '';
-    root.style.backgroundColor = 'lightsteelblue';
-  }
+  const root = document.querySelector('#trello-root');
+  root.style = '';
+  root.style.backgroundColor = 'lightsteelblue';
 }
 
 window.onload = function() {
